@@ -211,3 +211,10 @@ If you find this project helpful, welcome to sponsor me via WeChat or via [ko-fi
 ## 🌟 Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=TideDra/zotero-arxiv-daily&type=Date)](https://star-history.com/#TideDra/zotero-arxiv-daily&Date)
+
+
+## issues
+2026-03-31 09:55:01 | WARNING  | zotero_arxiv_daily.protocol:generate_tldr:65 - Failed to generate tldr of http://arxiv.org/abs/2603.28565v1: Connection error.
+2026-03-31 09:55:03 | WARNING  | zotero_arxiv_daily.protocol:generate_affiliations:103 - Failed to generate affiliations of http://arxiv.org/abs/2603.28565v1: Connection error.
+  0%|          | 0/100 [00:00<?, ?it/s]
+可以设置一下OPENAI_API_BASE和OPENAI_API_KEY，改一下model为硅基流动里的比如deepseek/****
